@@ -1,0 +1,48 @@
+/*================
+extra small device
+=================*/
+@media (max-width : 575px){
+    /*navbar*/
+    .navbar{
+        top: 0;
+    }
+
+    .navbar .navbar-nav{
+        background: #e23e38;
+        text-align: center;
+    }
+
+    .navfix {
+        background: rgba(226, 62, 56, 0.50);
+    }
+
+    /*gallery*/
+
+    #gallery .gallery-item {
+        height: 2500px;
+    }
+
+    /*test*/
+
+    #test .test-item p {
+         width: 340px;
+    }
+
+    /*membership*/
+
+    #membership .member-item{
+        padding-bottom: 30px;
+    }
+
+    /*countdown*/
+
+    #countdown .cd-back {
+        height: 640px;
+    }
+
+    /*footer*/
+
+    footer .footer-back {
+        height: 875px;
+    }
+}
